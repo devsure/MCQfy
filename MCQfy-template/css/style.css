@@ -1,0 +1,58 @@
+body{
+  height: 100%;
+  margin: 0;
+}
+
+.buttons-list{
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  background-color: #63d0ff;
+}
+
+/* .buttons-list:after
+{
+  position: absolute;
+  content:'';
+  background: inherit;
+  top:0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  transform-origin: right bottom;
+  transform: skewX(-10deg);
+} */
+
+.container{
+  margin-left: 10px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+.btn{
+  padding: 12px;
+  width: 90%;
+}
+
+button{
+margin-bottom: 15px;
+}
+
+.main-img{
+  position: relative;
+  display: flex;
+  float: right;
+}
+
+@media (max-width: 1000px) {
+  .main-img{
+    position: relative;
+    display: flex;
+    float: top;
+    width: 50%;
+    height: 50%;
+  }
+
+}
